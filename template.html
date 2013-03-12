@@ -1,0 +1,23 @@
+<div class="newscred-search">
+</div>
+<div class="newscred-topic">
+</div>
+
+<div class="templates">
+	<script id="newscred-search-template" type="template">
+		<input type="text" />
+		<button>Load</button>
+	</script>	
+
+	<script id="newscred-topic-template" type="template">
+		<h2 class='title'><%=title%></h2>
+		<div class='description'><%=description%></div>
+	</script>
+	
+	<script id="newscred-selected-topic-template" type="template">
+		<h2 class='title'><%=title%></h2>
+		<h3 class='guid'><%=guid%></h3>
+		<input type='hidden' name='newscred-guid' value='<%=guid%>' />
+		<div class='description'><%=description%></div>
+	</script>
+</div>
